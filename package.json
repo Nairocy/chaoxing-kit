@@ -1,0 +1,35 @@
+{
+  "name": "chaoxing-kit",
+  "version": "0.1.0",
+  "description": "超星学习通自动化工具包：真实 1x 播放视频、文档滚动记账、测验截图辅助（CLI + MCP server，零依赖）",
+  "type": "module",
+  "bin": {
+    "chaoxing": "./src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "mcp": "node src/mcp.mjs",
+    "cli": "node src/cli.mjs"
+  },
+  "keywords": [
+    "chaoxing",
+    "xuexitong",
+    "超星",
+    "automation",
+    "mcp",
+    "cdp",
+    "chrome-devtools-protocol"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nairocy/chaoxing-kit"
+  }
+}
